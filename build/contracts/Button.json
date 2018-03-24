@@ -1,0 +1,105 @@
+{
+  "contract_name": "Button",
+  "abi": [
+    {
+      "constant": false,
+      "inputs": [],
+      "name": "kill",
+      "outputs": [],
+      "payable": false,
+      "type": "function"
+    },
+    {
+      "constant": false,
+      "inputs": [],
+      "name": "whoPressedLast",
+      "outputs": [
+        {
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "payable": false,
+      "type": "function"
+    },
+    {
+      "constant": false,
+      "inputs": [],
+      "name": "withdrawBalance",
+      "outputs": [],
+      "payable": false,
+      "type": "function"
+    },
+    {
+      "constant": false,
+      "inputs": [],
+      "name": "depositEther",
+      "outputs": [],
+      "payable": true,
+      "type": "function"
+    },
+    {
+      "constant": false,
+      "inputs": [],
+      "name": "start",
+      "outputs": [],
+      "payable": false,
+      "type": "function"
+    },
+    {
+      "constant": false,
+      "inputs": [],
+      "name": "getTargetBlock",
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "payable": false,
+      "type": "function"
+    },
+    {
+      "constant": false,
+      "inputs": [],
+      "name": "pressButton",
+      "outputs": [],
+      "payable": true,
+      "type": "function"
+    },
+    {
+      "constant": false,
+      "inputs": [],
+      "name": "claimTreasure",
+      "outputs": [],
+      "payable": false,
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "payable": false,
+      "type": "constructor"
+    },
+    {
+      "anonymous": false,
+      "inputs": [
+        {
+          "indexed": false,
+          "name": "_presser",
+          "type": "address"
+        },
+        {
+          "indexed": false,
+          "name": "_when",
+          "type": "uint256"
+        }
+      ],
+      "name": "ButtonPressed",
+      "type": "event"
+    }
+  ],
+  "unlinked_binary": "0x60606040526003805460ff19169055341561001657fe5b5b60008054600160a060020a03191633600160a060020a03161790555b5b6103aa806100436000396000f300606060405236156100725763ffffffff60e060020a60003504166341c0e1b581146100745780635c507cfb146100865780635fd8c710146100b257806398ea5fca146100c4578063be9a6555146100ce578063bfab41c9146100e0578063c8b5da6614610102578063f335adb01461010c575bfe5b341561007c57fe5b61008461011e565b005b341561008e57fe5b61009661015d565b60408051600160a060020a039092168252519081900360200190f35b34156100ba57fe5b61008461016d565b005b6100846101d5565b005b34156100d657fe5b6100846101f5565b005b34156100e857fe5b6100f061024b565b60408051918252519081900360200190f35b610084610252565b005b341561011457fe5b6100846102f0565b005b60005433600160a060020a0390811691161461013a5760006000fd5b60035460ff161561014b5760006000fd5b600054600160a060020a0316ff5b5b5b565b600154600160a060020a03165b90565b60005433600160a060020a039081169116146101895760006000fd5b60035460ff161561019a5760006000fd5b60008054604051600160a060020a0391821692309092163180156108fc0292909190818181858888f19350505050151561015957fe5b5b5b5b565b60005433600160a060020a039081169116146101595760006000fd5b5b5b565b60005433600160a060020a039081169116146102115760006000fd5b60035460ff16156102225760006000fd5b6003805460ff191660019081178255439091016002558054600160a060020a03191690555b5b5b565b6002545b90565b60035460ff1615156001146102675760006000fd5b346729a2241af62c000014801561028057506002544311155b151561028c5760006000fd5b60018054600160a060020a03191633600160a060020a03169081179091556002805460030190556040805191825242602083015280517ff1e2abbdd3969fea5f6950e78b803559d0587ff8da184624bdba51665307c1619281900390910190a15b5b565b60035460009060ff1615156001146103085760006000fd5b60025443118015610327575060015433600160a060020a039081169116145b15156103335760006000fd5b6064605f600160a060020a03301631025b600154604051929091049250600160a060020a03169082156108fc029083906000818181858888f19350505050151561037957fe5b5b5b505600a165627a7a72305820b5f5021ee9f60a29af7c259440f298a844184be1c558dcd179bf27121408cebe0029",
+  "networks": {},
+  "schema_version": "0.0.5",
+  "updated_at": 1521913856133
+}
